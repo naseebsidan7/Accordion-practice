@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background:linear-gradient( to top, rgba(255, 209, 255, 0.817) ,#fcfcfc);
+    min-height: 150vh;
+}
+
+
+.cover_img{
+    background-image: url('../src/assets/images/background-pattern-desktop.svg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+@media  screen and (max-width:550px) {
+    .cover_img{
+        height: 30vh;
+    }
+}
+ 
+
+.accordion_contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+ 

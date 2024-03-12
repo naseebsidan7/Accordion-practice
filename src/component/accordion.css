@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wrapper{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    border: 1px solid rgba(255, 255, 255, 0.628) ;
+    padding: 1rem 1rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+    max-width:100%;
+    margin-top: 5.7rem;
+}
+
+.faqs-heading{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    color:  hsla(292, 42%, 14%, 0.941);;
+     font-family: "Work Sans", sans-serif ;
+     font-size: 40px;
+     line-height: 55px;
+}
+
+ 
+
+ 
+
+.faqs{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+
+     cursor: pointer;
+}
+.faq-title h5{
+     font-size: 18px;
+     color:  hsla(292, 42%, 14%, 0.863);
+     font-weight: 600;
+}
+
+.faqs .faq-title h5:hover {
+    color: #be29dcf0;
+}
+ 
+
+.faq-content{
+    font-size: 18px;
+    color:  hsla(293, 18%, 37%, 0.71);
+    font-weight: 600;
+    margin-top: 15px;
+     max-height: 0;
+     overflow: hidden;
+     
+    
+}
+
+.faq-content.show{
+     height: auto;
+     max-height: 526px;
+}
+
+.faq-container{
+    border-bottom: 2px solid rgba(162, 154, 154, 0.283);
+    padding-bottom: .8rem;
+}
+.faq-container:last-child{
+    border:none;
+    padding-bottom: 0.2rem;
+}
+
+ 
+
+
+@media screen and (min-width:800px) {
+    .wrapper{
+        max-width:600px;
+    }
+}
+
+ 
+@media  screen and (max-width:550px) {
+    .wrapper{
+    
+        margin: .7rem;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+
+    
+}
+ 
